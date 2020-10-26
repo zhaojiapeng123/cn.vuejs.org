@@ -621,9 +621,9 @@ Vue.component('my-functional-button', {
 
 ``` html
 <my-functional-component>
-  <p v-slot:foo>
+  <template v-slot:foo>
     first
-  </p>
+  </template>
   <p>second</p>
 </my-functional-component>
 ```
